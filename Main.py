@@ -5,7 +5,7 @@ import pymysql, requests
 from bs4 import BeautifulSoup
 
 from Model import top250
-# 1. Wykonaj żądanie GET dla zadresu https://www.imdb.com/chart/top?ref_=nv_mv_250
+
 
 class ImdbScrapper:
     def __init__(self):
